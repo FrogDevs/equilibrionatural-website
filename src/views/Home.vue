@@ -118,12 +118,32 @@
                     </div>
                     <div class="flex flex-col h-3/6 gap-4">
                         <p class="text-2xl font-serif">Legal</p>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                     </div>
                 </div>
             </div>
         </section>
 
-
+        <!-- questions -->
+        <section class="flex flex-col mt-12 px-28 gap-4">
+            <div class="flex flex-col justify-center w-full py-6 px-10 bg-slate-50 shadow-md">
+                <div class="flex flex-row items-center justify-between">
+                    <p class="text-xl font-serif text-neutral-900">Lorem ipsum dolor sit amet, consectetur adipiscing elit?</p>
+                    <i class="ri-arrow-right-s-line ri-xl hover:cursor-pointer"></i>
+                </div>
+            </div>
+            <div class="flex flex-col justify-center w-full py-6 px-10 bg-slate-50 shadow-md">
+                <div class="flex flex-row items-center justify-between">
+                    <p class="text-xl font-serif text-neutral-900">Lorem ipsum dolor sit amet, consectetur adipiscing elit?</p>
+                    <i class="ri-arrow-right-s-line ri-xl hover:cursor-pointer"></i>
+                </div>
+            </div>
+            <div class="flex flex-col justify-center w-full py-6 px-10 bg-slate-50 shadow-md">
+                <div class="flex flex-row items-center justify-between">
+                    <p class="text-xl font-serif text-neutral-900">Lorem ipsum dolor sit amet, consectetur adipiscing elit?</p>
+                    <i class="ri-arrow-right-s-line ri-xl hover:cursor-pointer"></i>
+                </div>
+            </div>
+        </section>
     </main>
 </template>
