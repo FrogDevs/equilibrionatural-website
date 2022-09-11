@@ -3,10 +3,9 @@
 </script>
 
 <template>
-    <!-- <div id="nav">
-        <router-link to="/">Home</router-link>
-        <router-link to="/Sobre">Sobre</router-link>
-        <router-link to="/Contato">Contato</router-link>
-    </div> -->
     <router-view />
+    <footer class="flex flex-row mt-12 py-10 px-28 justify-between bg-slate-50">
+        <p>Made by Frog Devs 🐸</p>
+        <p>© All rights reserved.</p>
+    </footer>
 </template>
