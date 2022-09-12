@@ -6,7 +6,7 @@
     <header class="flex flex-row min-h-screen">
 
         <!-- hero -->
-        <div class="flex flex-col w-6/12 px-28 justify-center gap-3">
+        <div class="flex flex-col w-6/12 px-28 justify-center gap-4">
             <nav class="flex flex-row items-center gap-8 mb-12">
                 <p class="text-lg font-bold">Equilibrio Natural</p>
                 <router-link class="text-green-600" to="/">Home</router-link>
@@ -73,7 +73,7 @@
                         <p class="text-sm text-neutral-500 uppercase">Lorem ipsum dolor sit amet</p>
                         <h3 class="text-3xl font-medium font-serif">Lorem ipsum dolor sit amet, consectetur adipiscing elit</h3>
                         <p class="text-neutral-900">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Metus aliquam eleifend mi in. Eu facilisis sed odio morbi quis commodo odio aenean. Eget mauris pharetra et ultrices neque ornare.</p>
-                        <button class="w-56 mt-8 h-12 font-medium uppercase text-sm text-white bg-green-500">Sobre nós</button>
+                        <router-link class="flex flex-row items-center justify-center w-56 mt-8 h-12 font-medium uppercase text-sm text-white bg-green-500" to="/Sobre">Sobre nós</router-link>
                     </div>
                 </div>
             </div>
