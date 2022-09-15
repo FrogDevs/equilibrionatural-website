@@ -1,18 +1,16 @@
-<script setup>
-
-</script>
+<script setup></script>
 
 <template>
     <header class="flex flex-col">
-        <nav class="flex flex-row min-w-full py-10 px-28 items-center gap-8">
+        <nav class="flex flex-row min-w-full py-10 px-10 lg:px-28 items-center gap-8">
             <p class="text-lg font-bold">Equilibrio Natural 🌱</p>
             <router-link class="text-green-600" to="/">Home</router-link>
             <router-link class="text-green-600" to="/Sobre">Sobre</router-link>
             <router-link class="text-green-600" to="/Contato">Contato</router-link>
         </nav>
     </header>
-    <main class="relative flex flex-col">
-        <section class="flex flex-row w-full mt-12 py-12 px-28 bg-green-50">
+    <main class="lg:relative flex flex-col">
+        <section class="flex flex-row w-full lg:mt-12 py-12 px-10 lg:px-28 bg-green-50">
             <!-- socials -->
             <div class="flex flex-col gap-8">
                 <div class="flex flex-col gap-0">
@@ -49,14 +47,14 @@
             </div>
         </section>
         <!-- contact -->
-        <div class="mr-28 absolute right-0 flex flex-col max-w-xl pt-12 px-12 pb-28 gap-4 bg-white shadow-lg">
+        <div class="lg:absolute right-0 flex flex-col max-w-xl lg:mr-28 pt-12 px-12 lg:pb-28 gap-4 bg-white lg:shadow-lg">
             <h1 class="text-5xl font-semibold font-serif">Contate agora</h1>
             <p class="text-sm text-neutral-500">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Risus sed vulputate odio ut enim blandit volutpat maecenas.</p>
-            <form class="flex flex-col gap-6" action="https://formsubmit.co/your@email.com" method="POST">
-                <input class="bg-transparent border-b-2" placeholder="Nome *" type="text" id="name" required />
-                <input class="bg-transparent border-b-2" type="email" id="email" placeholder="E-mail *" required />
-                <input class="bg-transparent border-b-2" type="tel" id="number" placeholder="Telefone *" required />
-                <textarea class="h-8 bg-transparent border-b-2 resize-none" id="message" placeholder="Mensssagem *" required />
+            <form class="flex flex-col items-center lg:items-start gap-6" action="https://formsubmit.co/your@email.com" method="POST">
+                <input class="w-full bg-transparent border-b-2" placeholder="Nome *" type="text" id="name" required />
+                <input class="w-full bg-transparent border-b-2" type="email" id="email" placeholder="E-mail *" required />
+                <input class="w-full bg-transparent border-b-2" type="tel" id="number" placeholder="Telefone *" required />
+                <textarea class="w-full h-8 bg-transparent border-b-2 resize-none" id="message" placeholder="Mensssagem *" required />
 
                 <input type="hidden" name="_template" value="table" />
                 <input type="hidden" name="_subject" value="Nova pessoa em contato!">
@@ -65,8 +63,8 @@
                 <button class="w-56 mt-8 h-12 font-medium uppercase text-sm text-white bg-green-500">Enviar</button>
             </form>
         </div>
-
-        <section class="flex flex-col w-full mt-24 px-28 items-center gap-10">
+        <!-- map -->
+        <section class="flex flex-col w-full mt-10 lg:mt-24 px-10 lg:px-28 items-center gap-10">
             <!-- titles -->
             <div class="flex flex-col items-center gap-3">
                 <p class="text-xs text-neutral-500 uppercase">Lorem ipsum dolor sit amet</p>
