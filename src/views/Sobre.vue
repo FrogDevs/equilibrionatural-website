@@ -1,13 +1,12 @@
-<script setup></script>
+<script setup>
+    import TheNavbar from '../components/TheNavbar.vue';
+    import CardTeam from '../components/CardTeam.vue';
+import TheTitles from '../components/TheTitles.vue';
+</script>
 
 <template>
-    <header class="flex flex-col">
-        <nav class="flex flex-row min-w-full py-10 px-10 lg:px-14 xl:px-28 items-center gap-8">
-            <p class="text-lg font-bold">Equilibrio Natural 🌱</p>
-            <router-link class="text-green-600" to="/">Home</router-link>
-            <router-link class="text-green-600" to="/Sobre">Sobre</router-link>
-            <router-link class="text-green-600" to="/Contato">Contato</router-link>
-        </nav>
+    <header class="flex flex-col px-10 lg:px-28">
+        <TheNavbar />
     </header>
     <main class="flex flex-col">
         <section class="flex flex-col lg:flex-row lg:mt-12">
@@ -20,34 +19,11 @@
             </div>
         </section>
         <section class="flex flex-col mt-10 lg:mt-12 px-10 lg:px-14 xl:px-28 items-center">
-            <!-- titles -->
-            <div class="flex flex-col items-center gap-3">
-                <p class="text-xs text-neutral-500 uppercase">Lorem ipsum dolor sit amet</p>
-                <h2 class="text-3xl font-medium font-serif">Conheça nosso time:</h2>
-                <p class="text-sm text-neutral-900">Pode confiar:</p>
-            </div>
+            <TheTitles />
             <div class="flex flex-col lg:grid grid-cols-3 auto-rows-auto w-full mt-10 gap-10 lg:gap-4 items-center">
-                <div class="flex flex-col w-full max-w-sm h-96 p-10 gap-4 bg-green-50 shadow-md">
-                    <div class="w-full h-full bg-black">.</div>
-                    <div class="flex flex-col items-center gap-2">
-                        <p class="text-2xl font-serif">Nome</p>
-                        <p>Função</p>
-                    </div>
-                </div>
-                <div class="flex flex-col w-full max-w-sm h-96 p-10 gap-4 bg-green-50 shadow-md">
-                    <div class="w-full h-full bg-black">.</div>
-                    <div class="flex flex-col items-center gap-2">
-                        <p class="text-2xl font-serif">Nome</p>
-                        <p>Função</p>
-                    </div>
-                </div>
-                <div class="flex flex-col w-full max-w-sm h-96 p-10 gap-4 bg-green-50 shadow-md">
-                    <div class="w-full h-full bg-black">.</div>
-                    <div class="flex flex-col items-center gap-2">
-                        <p class="text-2xl font-serif">Nome</p>
-                        <p>Função</p>
-                    </div>
-                </div>
+                <CardTeam />
+                <CardTeam />
+                <CardTeam />
             </div>
         </section>
     </main>

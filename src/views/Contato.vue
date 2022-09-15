@@ -1,49 +1,21 @@
-<script setup></script>
+<script setup>
+    import TheNavbar from '../components/TheNavbar.vue';
+import SocialLink from '../components/SocialLink.vue';
+import TheTitles from '../components/TheTitles.vue';
+</script>
 
 <template>
-    <header class="flex flex-col">
-        <nav class="flex flex-row min-w-full py-10 px-10 lg:px-28 items-center gap-8">
-            <p class="text-lg font-bold">Equilibrio Natural 🌱</p>
-            <router-link class="text-green-600" to="/">Home</router-link>
-            <router-link class="text-green-600" to="/Sobre">Sobre</router-link>
-            <router-link class="text-green-600" to="/Contato">Contato</router-link>
-        </nav>
+    <header class="flex flex-col px-10 lg:px-28">
+        <TheNavbar />
     </header>
     <main class="lg:relative flex flex-col">
         <section class="flex flex-row w-full lg:mt-12 py-12 px-10 lg:px-28 bg-green-50">
             <!-- socials -->
             <div class="flex flex-col gap-8">
-                <div class="flex flex-col gap-0">
-                    <div class="flex flex-row gap-4 items-center">
-                        <i class="ri-whatsapp-line ri-2x text-green-500"></i>
-                        <p class="text-2xl font-semibold">Whatsapp</p>
-                    </div>
-                    <p class="text-lg text-neutral-600">(xx) xxxxx-xxxx</p>                    
-                </div>
-
-                <div class="flex flex-col gap-0">
-                    <div class="flex flex-row gap-4 items-center">
-                        <i class="ri-instagram-line ri-2x text-green-500"></i>
-                        <p class="text-2xl font-semibold">Instagram</p>
-                    </div>
-                    <p class="text-lg text-neutral-600">vnevesz13</p>                    
-                </div>
-
-                <div class="flex flex-col gap-0">
-                    <div class="flex flex-row gap-4 items-center">
-                        <i class="ri-facebook-circle-line ri-2x text-green-500"></i>
-                        <p class="text-2xl font-semibold">facebook</p>
-                    </div>
-                    <p class="text-lg text-neutral-600">Equilibrio natural</p>                    
-                </div>
-
-                <div class="flex flex-col gap-0">
-                    <div class="flex flex-row gap-4 items-center">
-                        <i class="ri-mail-line ri-2x text-green-500"></i>
-                        <p class="text-2xl font-semibold">E-mail</p>
-                    </div>
-                    <p class="text-lg text-neutral-600">email@exemplo.com</p>                    
-                </div>
+                <SocialLink />
+                <SocialLink />
+                <SocialLink />
+                <SocialLink />
             </div>
         </section>
         <!-- contact -->
@@ -65,13 +37,7 @@
         </div>
         <!-- map -->
         <section class="flex flex-col w-full mt-10 lg:mt-24 px-10 lg:px-28 items-center gap-10">
-            <!-- titles -->
-            <div class="flex flex-col items-center gap-3">
-                <p class="text-xs text-neutral-500 uppercase">Lorem ipsum dolor sit amet</p>
-                <h2 class="text-3xl font-medium font-serif">Conheça nosso time:</h2>
-                <p class="text-sm text-neutral-900">Pode confiar:</p>
-            </div>
-
+            <TheTitles />
             <iframe width="100%" height="400" src="https://maps.google.com/maps?q=R.%20Imber%C3%A9,%20n%C2%B0373%20-%20Cidade%20Ipava,%20S%C3%A3o%20Paulo%20-%20SP,%2004950-080&t=&z=19&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
         </section>
     </main>
