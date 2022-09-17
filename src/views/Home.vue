@@ -54,29 +54,29 @@
         },
     ]
 
-    const questions = [
+    const questions = ref([
         {
             id: 0,
+            activated: false,
             question: 'pedro cueca?',
             answer: 'Sim'
         },
         {
             id: 1,
+            activated: false,
             question: 'pedro cueca?',
             answer: 'Sim'
         },
         {
             id: 2,
+            activated: false,
             question: 'pedro cueca?',
             answer: 'Sim'
         }
-    ]
+    ])
 
     function toggleAnswer(id) {
-        // questions[id].activated = !questions[id].activated
-        // console.log(questions[id].activated);
-        questions[id].activated = true
-        console.log(questions[id].activated);
+        questions.value[id].activated = !questions.value[id].activated
     }
 </script>
 
