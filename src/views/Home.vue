@@ -13,19 +13,19 @@
         {
             id: 0,
             picture: '',
-            title: 'Benefit',
+            title: 'Beneficio',
             paragraph: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit'
         },
         {
             id: 1,
             picture: '',
-            title: 'Benefit',
+            title: 'Beneficio',
             paragraph: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit'
         },
         {
             id: 2,
             picture: '',
-            title: 'Benefit',
+            title: 'Beneficio',
             paragraph: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit'
         },
     ]
@@ -34,22 +34,22 @@
         {
             id: 0,
             isSmall: true,
-            picture: '',
-            name: 'Paulo o tario',
+            picture: '/people.jpg',
+            name: 'pessoa',
             comentary: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
         },
         {
             id: 1,
             isSmall: false,
-            picture: '',
-            name: 'Paulo o tario',
+            picture: '/people.jpg',
+            name: 'pessoa',
             comentary: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
         },
         {
             id: 2,
             isSmall: true,
-            picture: '',
-            name: 'Paulo o tario',
+            picture: '/people.jpg',
+            name: 'pessoa',
             comentary: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
         },
     ]
@@ -58,20 +58,20 @@
         {
             id: 0,
             activated: false,
-            question: 'pedro cueca?',
-            answer: 'Sim'
+            question: 'Lorem ipsum dolor sit amet?',
+            answer: 'Sim.'
         },
         {
             id: 1,
             activated: false,
-            question: 'pedro cueca?',
-            answer: 'Sim'
+            question: 'Lorem ipsum dolor sit amet?',
+            answer: 'Sim.'
         },
         {
             id: 2,
             activated: false,
-            question: 'pedro cueca?',
-            answer: 'Sim'
+            question: 'Lorem ipsum dolor sit amet?',
+            answer: 'Sim.'
         }
     ])
 
@@ -87,16 +87,16 @@
             <the-navbar />
             <h1 class="text-amber-900 text-3xl xl:text-5xl  font-semibold font-serif">Temos a missão de proporcionar à você um estilo de vida mais saudável 💛💚</h1>
             <p class="text-zinc-800">Temos a missão de proporcionar à você um estilo de vida mais saudável 💛💚.</p>
-            <the-button icon="ri-arrow-down-s-line" message="ver mais" />
+            <a href="#benefits"><the-button icon="ri-arrow-down-s-line" message="ver mais" /></a>
         </div>
         <!-- image -->
-        <div class="hidden lg:block lg:w-6/12 bg-[url('src/assets/hero-img.jpg')] bg-no-repeat bg-cover bg-center">
+        <div class="hidden lg:block lg:w-6/12 bg-hero-pattern bg-no-repeat bg-cover bg-center">
         </div>
     </header>
     <main class="flex flex-col">
         <!-- benefits -->
-        <section class="flex flex-col pt-10 lg:pt-12 px-10 lg:px-28 items-center gap-10 lg:gap-12 bg-slate-50">
-            <the-titles section="Lorem ipsum dolor sit amet" title="Conheça nosso time:" subtitle="Pode confiar:" />
+        <section id="benefits" class="flex flex-col pt-10 lg:pt-12 px-10 lg:px-28 items-center gap-10 lg:gap-12 bg-slate-50">
+            <the-titles section="felicidade garantida" title="Só nós oferecemos" subtitle="Veja os benefícios:" />
             <div class="flex flex-col lg:flex-row justify-center gap-5">
                 <card-benefit 
                     v-for="items in benefits"
@@ -109,7 +109,7 @@
         </section>
         <section class="lg:relative lg:h-128 xl:h-256 py-10 px-10 lg:px-28 bg-slate-50">
             <!-- img -->
-            <div class="lg:static flex flex-row items-center lg:w-7/12 h-full lg:bg-[url('src/assets/about-prev.jpg')] bg-no-repeat bg-cover bg-center">
+            <div class="lg:static flex flex-row items-center lg:w-7/12 h-full lg:bg-about-prev bg-no-repeat bg-cover bg-center">
                 <!-- card -->
                 <div class="lg:absolute right-0 flex lg:w-3/6 h-full items-center">
                     <div class="flex flex-col items-center lg:items-start h-fit p-10 gap-4 bg-slate-50">
@@ -126,7 +126,7 @@
         </section>
         <!-- reviews -->
         <section class="flex flex-col pt-10 px-10 lg:px-28 items-center">
-            <the-titles :is-small="true" section="Lorem ipsum dolor sit amet" title="Conheça nosso time:" subtitle="Pode confiar:" />
+            <the-titles :is-small="true" section="Confiança certa" title="Quem conhece, confia." subtitle="O que outros dizem:" />
             <div class="flex flex-col lg:flex-row pt-10 lg:pt-12 justify-center items-center gap-10 lg:gap-4">
                 <card-review
                     v-for="items in reviews"
@@ -139,13 +139,13 @@
             </div>
         </section>
         <!-- message -->
-        <div class="flex flex-col w-full mt-10 lg:mt-12 p-10 lg:p-20 justify-center items-center gap-4 bg-[url('src/assets/valadao.jpg')] bg-no-repeat bg-cover bg-center">
-            <p class="uppercase text-neutral-400 text-sm">we belive in better</p>
-            <p class="text-white text-xl text-center">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Metus aliquam eleifend mi in. Metus aliquam eleifend mi in. Metus aliquam eleifend mi in. Metus aliquam eleifend mi in."</p>
+        <div class="flex flex-col w-full mt-10 lg:mt-12 p-10 lg:p-20 justify-center items-center gap-4 bg-message bg-no-repeat bg-cover bg-center">
+            <p class="uppercase text-zinc-500 text-sm">Acreditamos no melhor</p>
+            <p class="text-amber-900 text-xl text-center">"Em equilíbrio com a mãe natureza."</p>
         </div>
         <!-- FAQ -->
         <section class="flex flex-col mt-10 px-10 lg:px-28 gap-4 items-center">
-            <the-titles :is-small="true" section="Lorem ipsum dolor sit amet" title="Conheça nosso time:" subtitle="Pode confiar:" />
+            <the-titles :is-small="true" section="A dúvida é o princípio da sabedoria." title="Perguntas frequentes" />
             <question-box
                 v-for="items in questions"
                 :key="items.id"

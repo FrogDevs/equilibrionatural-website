@@ -6,17 +6,17 @@
     const team = [
         {
             id: 0,
-            picture: '',
+            picture: '/people.jpg',
             name: 'Nome'
         },
         {
             id: 1,
-            picture: '',
+            picture: '/people.jpg',
             name: 'Nome'
         },
         {
             id: 2,
-            picture: '',
+            picture: '/people.jpg',
             name: 'Nome'
         },
     ]
@@ -33,7 +33,7 @@
                 <p class="text-zinc-800">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Risus sed vulputate odio ut enim blandit volutpat maecenas. Velit dignissim sodales ut eu sem integer vitae justo eget. Netus et malesuada fames ac turpis egestas. Quis enim lobortis scelerisque fermentum dui faucibus. Cursus risus at ultrices mi tempus imperdiet nulla malesuada pellentesque. Integer vitae justo eget magna fermentum iaculis eu non diam. Aliquam purus sit amet luctus venenatis lectus. Mi in nulla posuere sollicitudin aliquam. Aliquam nulla facilisi cras fermentum odio eu feugiat pretium nibh.</p>
             </div>
             <div class="flex flex-row lg:w-6/12 h-auto lg:max-h-96 pt-10 lg:pt-0 lg:pr-14 xl:pr-28 justify-center">
-                <img class="drop-shadow-2xl" src="src/assets/about-prev.jpg" alt="about-prev" draggable="false">
+                <img class="drop-shadow-2xl" src="/about-prev.jpg" alt="about-prev" draggable="false">
             </div>
         </section>
         <section class="flex flex-col mt-10 lg:mt-12 px-10 lg:px-14 xl:px-28 items-center">
