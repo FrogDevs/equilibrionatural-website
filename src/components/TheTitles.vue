@@ -1,18 +1,16 @@
-<script setup></script>
+<script setup>
+    const props = defineProps({
+        isSmall: Boolean,
+        section: String,
+        title: String,
+        subtitle: String
+    })
+</script>
 
 <template>
     <div class="flex flex-col items-center gap-3">
-        <p class="uppercase text-sm text-neutral-500">Lorem ipsum dolor sit amet</p>
-        <h2 class="text-center text-4xl font-medium font-serif">Lorem ipsum dolor sit amet</h2>
-        <p class="text-neutral-900">Pode confiar:</p>
+        <p :class="isSmall ? 'text-xs' : 'text-sm'" class="uppercase text-zinc-500">{{ section }}</p>
+        <h2 :class="isSmall ? 'text-3xl' : 'text-4xl'" class="text-center text-4xl font-medium font-serif">{{ title }}</h2>
+        <p class="text-zinc-900">{{ subtitle }}</p>
     </div>
 </template>
-
-<!-- v. small -->
-<!--             
-    <div class="flex flex-col items-center gap-3">
-        <p class="text-xs text-neutral-500 uppercase">Lorem ipsum dolor sit amet</p>
-        <h2 class="text-3xl font-medium font-serif">Conheça nosso time:</h2>
-        <p class="text-sm text-neutral-900">Pode confiar:</p>
-    </div> 
--->
