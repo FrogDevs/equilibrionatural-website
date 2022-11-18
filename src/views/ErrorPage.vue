@@ -1,4 +1,4 @@
 <script setup></script>
 <template>
-  <router-view />
+  <p>404 error</p>
 </template>
