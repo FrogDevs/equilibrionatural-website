@@ -1,6 +1,7 @@
 lockfileVersion: 5.4
 
 specifiers:
+  '@fontsource/roboto': ^4.5.8
   '@pnpm/eslint-config': ^1.0.1
   '@vitejs/plugin-vue': ^3.1.0
   autoprefixer: ^10.4.12
@@ -17,6 +18,7 @@ specifiers:
   vue-router: '4'
 
 dependencies:
+  '@fontsource/roboto': 4.5.8
   vue: 3.2.39
   vue-router: 4.1.6_vue@3.2.39
 
@@ -93,6 +95,10 @@ packages:
     transitivePeerDependencies:
       - supports-color
     dev: true
+
+  /@fontsource/roboto/4.5.8:
+    resolution: {integrity: sha512-CnD7zLItIzt86q4Sj3kZUiLcBk1dSk81qcqgMGaZe7SQ1P8hFNxhMl5AZthK1zrDM5m74VVhaOpuMGIL4gagaA==}
+    dev: false
 
   /@humanwhocodes/config-array/0.10.5:
     resolution: {integrity: sha512-XVVDtp+dVvRxMoxSiSfasYaG02VEe1qH5cKgMQJWhol6HwzbcqoCMJi8dAGoYAO57jhUyhI6cWuRiTcRaDaYug==}
