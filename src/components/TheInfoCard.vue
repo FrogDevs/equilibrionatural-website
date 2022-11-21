@@ -16,15 +16,15 @@ const props = defineProps({
 </script>
 <template>
   <div
-    class="relative flex h-[12.375rem] w-full cursor-pointer rounded-[2.5rem]"
+    class="relative flex h-[12.375rem] w-full cursor-pointer rounded-[1.25rem] lg:h-[15.625rem] lg:rounded-[2.5rem]"
   >
     <h1
-      class="absolute z-20 w-full p-[1.563rem] text-center text-[1.563rem] font-medium text-green2"
+      class="absolute z-20 w-full p-[1.563rem] text-center text-[1.563rem] font-bold text-green2 lg:text-[2.813rem]"
     >
       {{ props.title }}
     </h1>
     <div
-      class="absolute z-10 h-full w-full rounded-[2.5rem] border-none bg-gradient-to-b from-[#261F1B]"
+      class="absolute z-10 h-full w-full rounded-[2.5rem] border-none bg-gradient-to-b from-[#606c38] opacity-70"
     ></div>
     <img
       class="h-full w-full rounded-[2.5rem] border-none"
