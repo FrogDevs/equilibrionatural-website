@@ -14,7 +14,7 @@ import TheWitnessCard from '../components/TheWitnessCard.vue'
     >
       <!-- content -->
       <div
-        class="flex w-full flex-col items-center gap-5 lg:w-1/3 lg:items-start"
+        class="flex w-full flex-col items-center gap-5 lg:w-2/5 lg:items-start"
       >
         <div
           class="flex flex-col text-center text-[3.125rem] leading-[3.688rem] text-primary lg:text-start 2xl:text-[3.75rem] 2xl:leading-[4.5rem]"
@@ -77,14 +77,25 @@ import TheWitnessCard from '../components/TheWitnessCard.vue'
       <div
         class="mt-[3.125rem] flex w-full flex-col gap-[1.563rem] sm:flex-row"
       >
-        <TheInfoCard title="Entre em contato" img="/contact.avif" />
-        <TheInfoCard title="Produtos naturais" img="/products.avif" />
+        <TheInfoCard
+          title="Entre em contato"
+          img="/contact.avif"
+          alt="Caixas de e-mail"
+          link="/contato"
+        />
+        <TheInfoCard
+          title="Produtos naturais"
+          img="/products.avif"
+          alt="Produto natural"
+          link="/produtos"
+        />
       </div>
     </TheHomeSection>
     <img
       class="mt-[3.125rem] w-2/3 pb-[0.5rem] md:mt-[6.25rem] md:pb-[3.125rem] lg:w-1/3 2xl:mt-[12.5rem] 2xl:pb-[6.25rem]"
       src="/art4.svg"
       alt="Relaxando com o equilíbrio natural"
+      draggable="false"
       loading="lazy"
     />
   </main>

@@ -21,7 +21,7 @@ const props = defineProps({
     <div
       class="flex h-[16.875rem] w-[16.875rem] items-center justify-center rounded-[1.25rem] bg-green2 p-8 sm:w-[18.75rem] sm:p-16 lg:rounded-[2.5rem] 2xl:h-[24rem] 2xl:w-[24rem]"
     >
-      <img :src="props.img" :alt="props.alt" loading="lazy" />
+      <img :src="props.img" :alt="props.alt" draggable="false" loading="lazy" />
     </div>
     <p
       class="w-full text-center text-[1.563rem] leading-[1.813rem] text-secondary 2xl:text-[2rem] 2xl:leading-[3rem]"

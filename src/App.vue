@@ -9,15 +9,21 @@
         <p class="text-[1.563rem] font-medium text-green2 2xl:text-[2rem]">
           Recursos
         </p>
-        <p class="text-[1.25rem] text-green2 2xl:text-[1.5rem]">Contate-nos</p>
+        <router-link
+          to="/contato"
+          class="text-[1.25rem] text-green2 2xl:text-[1.5rem]"
+          >Contate-nos</router-link
+        >
       </div>
       <div class="flex flex-col gap-[0.625rem]">
         <p class="text-[1.563rem] font-medium text-green2 2xl:text-[2rem]">
           Produtos
         </p>
-        <p class="text-[1.25rem] text-green2 2xl:text-[1.5rem]">
-          Disponíveis em loja
-        </p>
+        <router-link
+          to="/produtos"
+          class="text-[1.25rem] text-green2 2xl:text-[1.5rem]"
+          >Disponíveis em loja</router-link
+        >
       </div>
     </div>
     <div

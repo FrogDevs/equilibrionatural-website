@@ -11,11 +11,16 @@ const props = defineProps({
   alt: {
     type: String,
     default: ''
+  },
+  link: {
+    type: String,
+    default: ''
   }
 })
 </script>
 <template>
-  <div
+  <router-link
+    :to="props.link"
     class="relative flex h-[12.375rem] w-full cursor-pointer rounded-[1.25rem] lg:h-[15.625rem] lg:rounded-[2.5rem]"
   >
     <h1
@@ -24,13 +29,14 @@ const props = defineProps({
       {{ props.title }}
     </h1>
     <div
-      class="absolute z-10 h-full w-full rounded-[2.5rem] border-none bg-gradient-to-b from-[#606c38] opacity-70"
+      class="absolute z-10 h-full w-full rounded-[2.5rem] border-none bg-gradient-to-b from-[#7f5539] opacity-70"
     ></div>
     <img
       class="h-full w-full rounded-[2.5rem] border-none"
       :src="props.img"
       :alt="props.alt"
+      draggable="false"
       loading="lazy"
     />
-  </div>
+  </router-link>
 </template>
