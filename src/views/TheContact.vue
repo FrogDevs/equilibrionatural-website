@@ -2,6 +2,7 @@
 import TheInfoContact from '../components/TheInfoContact.vue'
 import TheMapCard from '../components/TheMapCard.vue'
 import TheTextfied from '../components/TheTextfied.vue'
+import TheFooter from '../components/TheFooter.vue'
 </script>
 <template>
   <header
@@ -19,13 +20,33 @@ import TheTextfied from '../components/TheTextfied.vue'
         >
           Contate agora
         </h1>
-        <form class="flex w-full flex-col items-center gap-[1.25rem]">
+        <form
+          class="flex w-full flex-col items-center gap-[1.25rem]"
+          action="https://formsubmit.co/equilibrionaturalloja@gmail.com"
+          method="POST"
+        >
           <TheTextfied type="text" placeholder="Nome" />
           <TheTextfied type="email" placeholder="E-mail" />
           <TheTextfied type="tel" placeholder="Telefone" />
           <TheTextfied type="text" placeholder="Menssagem" />
+          <input type="hidden" name="_template" value="table" />
           <input
-            class="flex w-fit cursor-pointer justify-center rounded-full bg-tertinary py-[0.625rem] px-[2.5rem] text-green2"
+            type="hidden"
+            name="_subject"
+            value="Contato: Equilíbrio Natural"
+          />
+          <input
+            type="hidden"
+            name="_autoresponse"
+            value="Agradecemos por entrar em contato com a Equilíbrio Natural, retornaremos o contato assim que possível."
+          />
+          <!-- <input
+            type="hidden"
+            name="_next"
+            value="https://desafio3-onepage.vercel.app/assets/html/thanks.html"
+          /> -->
+          <input
+            class="flex w-fit cursor-pointer justify-center rounded-full bg-tertinary py-[0.625rem] px-[2.5rem] text-green2 transition-transform duration-200 ease-out hover:bg-[#BACF80]"
             type="submit"
             value="Enviar"
           />
@@ -51,15 +72,22 @@ import TheTextfied from '../components/TheTextfied.vue'
     class="mt-[1.563rem] flex w-full flex-col items-center gap-[1.563rem] px-[1.563rem] md:mt-[3.125rem] md:gap-[3.125rem] lg:mt-[6.25rem] 2xl:px-[6.25rem]"
   >
     <h2
-      class="text-center text-[1.563rem] font-bold leading-[1.875rem] text-tertinary"
+      class="text-center text-[1.563rem] font-bold leading-[1.875rem] text-tertinary lg:text-[1.875rem]"
     >
       Conheça nossas unidades
     </h2>
     <div
       class="flex flex-col justify-center gap-[1.563rem] md:w-full md:flex-row"
     >
-      <TheMapCard title="São Paulo - SP, Rua Imberé - N°373" />
-      <TheMapCard title="São Paulo - SP, Av. Taquandava - N°1203" />
+      <TheMapCard
+        title="São Paulo - SP, Rua Imberé - N°373"
+        map-source="https://maps.google.com/maps?q=R.%20Imber%C3%A9,%20n%C2%B0373%20-%20Cidade%20Ipava,%20S%C3%A3o%20Paulo%20-%20SP,%2004950-080&t=&z=19&ie=UTF8&iwloc=&output=embed"
+      />
+      <TheMapCard
+        title="São Paulo - SP, Av. Taquandava - N°1203"
+        map-source="https://maps.google.com/maps?q=Av.%20Taquandava%20-%20N%C2%B01203&t=&z=13&ie=UTF8&iwloc=&output=embed"
+      />
     </div>
   </main>
+  <TheFooter />
 </template>

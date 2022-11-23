@@ -14,6 +14,8 @@ const props = defineProps({
   <input
     class="w-full border-b-2 border-secondary bg-transparent text-[1rem] text-primary placeholder:text-secondary focus:border-primary focus:outline-none focus:placeholder:text-primary"
     :type="props.type"
+    :name="props.type"
     :placeholder="props.placeholder"
+    required
   />
 </template>
