@@ -51,7 +51,7 @@ import TheTextfied from '../components/TheTextfied.vue'
     class="mt-[1.563rem] flex w-full flex-col items-center gap-[1.563rem] px-[1.563rem] md:mt-[3.125rem] md:gap-[3.125rem] lg:mt-[6.25rem] 2xl:px-[6.25rem]"
   >
     <h2
-      class="text-center text-[1.563rem] font-bold leading-[1.875rem] text-primary"
+      class="text-center text-[1.563rem] font-bold leading-[1.875rem] text-tertinary"
     >
       Conheça nossas unidades
     </h2>

@@ -1,6 +1,6 @@
 <script setup>
 import TheCard from '../components/TheCard.vue'
-import TheHomeSection from '../components/TheHomeSection.vue'
+import TheSection from '../components/TheSection.vue'
 import TheInfoCard from '../components/TheInfoCard.vue'
 import TheWitnessCard from '../components/TheWitnessCard.vue'
 </script>
@@ -42,7 +42,7 @@ import TheWitnessCard from '../components/TheWitnessCard.vue'
   <main
     class="flex flex-col items-center px-[1.563rem] lg:px-[3.125rem] 2xl:px-[6.25rem]"
   >
-    <TheHomeSection title="Benefícios Naturais">
+    <TheSection title="Benefícios Naturais">
       <div
         class="mt-[3.125rem] flex w-full flex-col justify-center gap-[1.563rem] lg:flex-row"
       >
@@ -62,8 +62,8 @@ import TheWitnessCard from '../components/TheWitnessCard.vue'
           title="Melhor qualidade de vida"
         />
       </div>
-    </TheHomeSection>
-    <TheHomeSection title="Confiança Equilibrada">
+    </TheSection>
+    <TheSection title="Confiança Equilibrada">
       <div
         class="mt-[3.125rem] flex w-full flex-col gap-[1.563rem] lg:flex-row"
       >
@@ -90,7 +90,7 @@ import TheWitnessCard from '../components/TheWitnessCard.vue'
           link="/produtos"
         />
       </div>
-    </TheHomeSection>
+    </TheSection>
     <img
       class="mt-[3.125rem] w-2/3 pb-[0.5rem] md:mt-[6.25rem] md:pb-[3.125rem] lg:w-1/3 2xl:mt-[12.5rem] 2xl:pb-[6.25rem]"
       src="/art4.svg"
