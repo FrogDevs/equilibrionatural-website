@@ -3,6 +3,7 @@ import TheCard from '../components/TheCard.vue'
 import TheSection from '../components/TheSection.vue'
 import TheInfoCard from '../components/TheInfoCard.vue'
 import TheWitnessCard from '../components/TheWitnessCard.vue'
+import TheFooter from '../components/TheFooter.vue'
 </script>
 <template>
   <header
@@ -29,12 +30,12 @@ import TheWitnessCard from '../components/TheWitnessCard.vue'
         </p>
       </div>
       <video
-        class="rounded-[1.25rem] sm:w-2/3 md:w-2/4 lg:w-full lg:rounded-[2.5rem]"
+        class="rounded-[1.25rem] sm:w-2/3 md:w-2/4 lg:w-full lg:rounded-[2.5rem] 2xl:h-[45%]"
         autoplay
         autostart
         loop
         preload="auto"
-        poster="/postervideo.avif"
+        poster="/poster.avif"
       >
         <source src="/equilibrionatural.mp4" type="video/mp4" />
       </video>
@@ -66,7 +67,7 @@ import TheWitnessCard from '../components/TheWitnessCard.vue'
     </TheSection>
     <TheSection title="Confiança Equilibrada">
       <div
-        class="mt-[3.125rem] flex w-full flex-col gap-[1.563rem] lg:flex-row"
+        class="mt-[3.125rem] flex w-full flex-col justify-center gap-[1.563rem] lg:flex-row"
       >
         <TheWitnessCard
           message="“Adoro os produtos de vocês, muita variedade e qualidade, sempre sou muito bem atendida, super recomendo.”"
@@ -75,8 +76,10 @@ import TheWitnessCard from '../components/TheWitnessCard.vue'
           message="“Equilíbrio Natural, é uma ótima loja sempre tendo novidades e produtos frescos, sempre encontrei o que procurava. Recomendo.”"
         />
       </div>
+    </TheSection>
+    <TheSection title="Veja mais">
       <div
-        class="mt-[3.125rem] flex w-full flex-col gap-[1.563rem] sm:flex-row"
+        class="mt-[3.125rem] flex w-full flex-col justify-center gap-[1.563rem] sm:flex-row"
       >
         <TheInfoCard
           title="Entre em contato"
@@ -100,4 +103,5 @@ import TheWitnessCard from '../components/TheWitnessCard.vue'
       loading="lazy"
     />
   </main>
+  <TheFooter />
 </template>
