@@ -31,6 +31,7 @@ import TheWitnessCard from '../components/TheWitnessCard.vue'
       <video
         class="rounded-[1.25rem] sm:w-2/3 md:w-2/4 lg:w-full lg:rounded-[2.5rem]"
         autoplay
+        autostart
         loop
         preload="auto"
         poster="/postervideo.avif"
