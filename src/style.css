@@ -6,3 +6,8 @@
       font-family: 'Roboto', sans-serif;
     }
 }
+
+::selection {
+  color: #F7F4E8;
+  background: #ADC178;
+}

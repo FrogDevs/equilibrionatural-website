@@ -1,6 +1,6 @@
 <template>
   <footer
-    class="mt-[3.125rem] flex flex-col gap-[3.125rem] rounded-t-[1.875rem] bg-primary p-[1.563rem] lg:p-[3.125rem] 2xl:px-[6.25rem] 2xl:pt-[6.25rem]"
+    class="mt-[3.125rem] flex flex-col gap-[3.125rem] rounded-t-[1.875rem] bg-primary p-[1.563rem] lg:rounded-t-[3.75rem] lg:p-[3.125rem] 2xl:px-[6.25rem] 2xl:pt-[6.25rem]"
   >
     <div class="flex flex-col gap-[1.25rem] md:flex-row md:gap-[6.25rem]">
       <div class="flex flex-col gap-[0.625rem]">

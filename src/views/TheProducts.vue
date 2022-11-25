@@ -1,6 +1,7 @@
 <script setup>
 import TheProductCard from '../components/TheProductCard.vue'
 import TheSection from '../components/TheSection.vue'
+import TheFooter from '../components/TheFooter.vue'
 </script>
 <template>
   <main>
@@ -29,4 +30,5 @@ import TheSection from '../components/TheSection.vue'
       </div>
     </TheSection>
   </main>
+  <TheFooter />
 </template>

@@ -9,6 +9,11 @@ module.exports = {
       tertinary: '#ADC178',
       green1: '#DDE5B6',
       green2: '#F7F4E8'
+    },
+    extend: {
+      backgroundImage: {
+        'hero-pattern': "url('/hero-pattern.avif')"
+      }
     }
   },
   plugins: []
