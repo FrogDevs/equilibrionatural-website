@@ -10,11 +10,9 @@ import TheFooter from '../components/TheFooter.vue'
 const observer = new IntersectionObserver((entries) => {
   entries.forEach((e) => {
     if (e.isIntersecting) {
-      console.log('mostrando')
       e.target.classList.remove('opacity-0')
       e.target.classList.add('opacity-100')
     } else {
-      console.log('escondendo')
       e.target.classList.remove('opacity-100')
       e.target.classList.add('opacity-0')
     }
