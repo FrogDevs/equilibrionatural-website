@@ -9,12 +9,12 @@
         </p>
         <router-link
           to="/"
-          class="text-[1.25rem] text-green2 duration-200 ease-out hover:text-[#E0DEC8] 2xl:text-[1.5rem]"
+          class="text-[1.25rem] text-green2 transition-colors duration-200 ease-out hover:text-[#E0DEC8] 2xl:text-[1.5rem]"
           >Início</router-link
         >
         <router-link
           to="/contato"
-          class="text-[1.25rem] text-green2 duration-200 ease-out hover:text-[#E0DEC8] 2xl:text-[1.5rem]"
+          class="text-[1.25rem] text-green2 transition-colors duration-200 ease-out hover:text-[#E0DEC8] 2xl:text-[1.5rem]"
           >Contate-nos</router-link
         >
       </div>
@@ -24,7 +24,7 @@
         </p>
         <router-link
           to="/produtos"
-          class="text-[1.25rem] text-green2 duration-200 ease-out hover:text-[#E0DEC8] 2xl:text-[1.5rem]"
+          class="text-[1.25rem] text-green2 transition-colors duration-200 ease-out hover:text-[#E0DEC8] 2xl:text-[1.5rem]"
           >Disponíveis em loja</router-link
         >
       </div>
