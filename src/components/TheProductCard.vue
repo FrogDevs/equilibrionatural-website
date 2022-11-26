@@ -4,11 +4,11 @@ const props = defineProps({
     type: String,
     default: ''
   },
-  img: {
+  subTitle: {
     type: String,
     default: ''
   },
-  alt: {
+  img: {
     type: String,
     default: ''
   }
@@ -16,7 +16,12 @@ const props = defineProps({
 </script>
 <template>
   <div class="h-[16.875rem] w-[16.875rem] rounded-[1.25rem] bg-green2">
-    <div class="h-[60%] rounded-[1.25rem] bg-tertinary"></div>
+    <img
+      class="h-[60%] w-full rounded-[1.25rem] bg-tertinary object-cover"
+      :src="props.img"
+      :alt="props.title"
+      loading="lazy"
+    />
     <div class="p-[1.25rem]">
       <p class="text-[1.563rem] leading-[3.75rem] text-secondary">
         {{ props.title }}

@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@fontsource/roboto": "^4.5.8",
+    "firebase": "9.13.0",
     "vue": "^3.2.45",
     "vue-router": "^4.1.6"
   },
