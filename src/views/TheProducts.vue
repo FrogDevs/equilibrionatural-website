@@ -3,6 +3,7 @@ import { ref, computed } from 'vue'
 import TheProductCard from '../components/TheProductCard.vue'
 import TheSection from '../components/TheSection.vue'
 import TheFooter from '../components/TheFooter.vue'
+import TheModal from '../components/TheModal.vue'
 import { collection, onSnapshot } from 'firebase/firestore'
 import { db } from '../firebase/index'
 
@@ -34,12 +35,20 @@ const nullProductsOne = computed(() => {
 })
 
 const nullProductsTwo = computed(() => {
-  if (productsUnityOne.value.length === 0) {
+  if (productsUnityTwo.value.length === 0) {
     return false
   } else {
     return true
   }
 })
+
+const modal = ref(false)
+const modalValue = ref()
+
+const showModal = (values) => {
+  modalValue.value = values
+  modal.value = true
+}
 </script>
 <template>
   <main>
@@ -66,8 +75,15 @@ const nullProductsTwo = computed(() => {
           v-for="items in productsUnityOne"
           :key="items.id"
           :title="items.name"
-          :sub-title="items.price"
           :img="items.image"
+          @click="
+            showModal({
+              name: items.name,
+              price: items.price,
+              weight: items.weight,
+              amount: items.amount
+            })
+          "
         />
       </div>
     </TheSection>
@@ -87,12 +103,27 @@ const nullProductsTwo = computed(() => {
           v-for="items in productsUnityTwo"
           :key="items.id"
           :title="items.name"
-          :sub-title="items.price"
           :img="items.image"
+          @click="
+            showModal({
+              name: items.name,
+              price: items.price,
+              weight: items.weight,
+              amount: items.amount
+            })
+          "
         />
       </div>
     </TheSection>
   </main>
+  <TheModal
+    v-if="modal"
+    :name="modalValue.name"
+    :price="modalValue.price"
+    :weight="modalValue.weight"
+    :amount="modalValue.amount"
+    @close-modal="modal = false"
+  />
   <TheFooter v-if="!loading" />
 </template>
 <style scoped>
