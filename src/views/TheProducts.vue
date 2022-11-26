@@ -5,7 +5,7 @@ import TheSection from '../components/TheSection.vue'
 import TheFooter from '../components/TheFooter.vue'
 import TheModal from '../components/TheModal.vue'
 import { collection, onSnapshot } from 'firebase/firestore'
-import { db } from '../firebase/index'
+import { db } from '../firebase/tcc_db'
 
 const productsCollectionRef = collection(db, 'products')
 const loading = ref(true)
