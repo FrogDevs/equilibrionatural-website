@@ -88,7 +88,7 @@ O site foi construido usando o conceito de *Mobile First*. Esse conceito se refe
 Clone o projeto
 
 ```bash
-  git clone https://github.com/FrogDevs/Equilibrio-Natural.git
+  git clone https://github.com/FrogDevs/Equilibrio-Natural-Website.git
 ```
 
 Vá ao diretório do projeto
