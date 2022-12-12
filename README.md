@@ -56,7 +56,7 @@ Deixamos essa dedicatória a empresa Equilíbrio Natural que confiaram em nossas
 
 ## Lições aprendidas
 
-**Quais desafios foram enfrentados e como foram sobresaídos?**
+**Quais desafios foram enfrentados e como foram sobressaídos?**
 
 Integrar a API Firestore Database no projeto. A maneira encontrada de incluir os dados em tempo real da database, foi instalando o SDK do Firebase/Firestore e usando o método ```onSnapshot()```.
 
