@@ -1,3 +1,8 @@
+
+
+# Equilíbrio Natural Website
+
+
 [![Languages](https://img.shields.io/github/languages/count/FrogDevs/Equilibrio-Natural)](https://github.com/FrogDevs/Equilibrio-Natural-Website)
 [![TopLanguage](https://img.shields.io/github/languages/top/FrogDevs/Equilibrio-Natural)](https://github.com/FrogDevs/Equilibrio-Natural-Website)
 [![Files](https://img.shields.io/github/directory-file-count/FrogDevs/Equilibrio-Natural)](https://github.com/FrogDevs/Equilibrio-Natural-Website)
@@ -5,9 +10,6 @@
 [![LinesCode](https://img.shields.io/tokei/lines/github/FrogDevs/Equilibrio-Natural)](https://github.com/FrogDevs/Equilibrio-Natural-Website)
 [![MIT License](https://img.shields.io/github/license/FrogDevs/Equilibrio-Natural)](https://choosealicense.com/licenses/mit/)
 ![Logos](https://i.imgur.com/E5pg9Hj.png)
-
-
-# Equilíbrio Natural Website
 
 Site de divulgação para a empresa Equilíbrio Natural. Landing page em formato SPA (Single Page Application) com informações importantes sobre a empresa, como, formas de contato e disponibilidade de produtos em loja.
 
@@ -25,7 +27,9 @@ Projeto feito pela equipe [FrogDev's](https://github.com/FrogDevs) para o Trabal
 ## Agradecimentos
 
 Deixamos essa dedicatória a empresa Equilíbrio Natural a qual confiou em nossas habilidades para divulgação, gestão e automação de seu empreendimento. E a ETEC Jardim Ângela por nos proporcionar a busca pelo conhecimento necessário na realização desse trabalho.
- 
+
+Reconhecimentos
+
 - [unDraw](https://undraw.co)
 - [Desing no Figma](https://www.figma.com/community/file/1183921990401059288)
 - [Unsplash: Primeira imagem](https://unsplash.com/photos/fb7yNPbT0l8)
@@ -36,7 +40,7 @@ Deixamos essa dedicatória a empresa Equilíbrio Natural a qual confiou em nossa
 
 ## Tech Stack
 
-**Client:** Vite, Vue, Vue Router e TailwindCSS
+**Client:** Vite, Vue, TailwindCSS e Vue Router
 
 **Server:** Node e Firebase
 
