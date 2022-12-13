@@ -24,7 +24,7 @@ Projeto feito pela equipe [FrogDev's](https://github.com/FrogDevs) para o Trabal
 
 ## Agradecimentos
 
-Deixamos essa dedicatória a empresa Equilíbrio Natural que confiaram em nossas habilidades para a divulgação, gestão e automação de seu empreendimento. Ao professor orientador Denílson por cooperar com a equipe no processo. E por fim, a ETEC Jardim Ângela por nos proporcionar a busca pelo conhecimento necessário na realização desse trabalho.
+Deixamos essa dedicatória a empresa Equilíbrio Natural a qual confiou em nossas habilidades para divulgação, gestão e automação de seu empreendimento. E a ETEC Jardim Ângela por nos proporcionar a busca pelo conhecimento necessário na realização desse trabalho.
  
 - [unDraw](https://undraw.co)
 - [Desing no Figma](https://www.figma.com/community/file/1183921990401059288)
@@ -58,7 +58,7 @@ Deixamos essa dedicatória a empresa Equilíbrio Natural que confiaram em nossas
 
 **Quais desafios foram enfrentados e como foram sobressaídos?**
 
-Integrar a API Firestore Database no projeto. A maneira encontrada de incluir os dados em tempo real da database, foi instalando o SDK do Firebase/Firestore e usando o método ```onSnapshot()```.
+Integrar a API Firestore Database no projeto. A maneira encontrada de incluir dados em tempo real vindos da database foi instalando o SDK do Firebase/Firestore e usando o método ```onSnapshot()```.
 
 
 ## Otimizações
@@ -68,7 +68,7 @@ Integrar a API Firestore Database no projeto. A maneira encontrada de incluir os
 
 O gerenciador de pacótes **Pnpm** foi escolhido para o projeto por oferecer *cold e hot cache*. Pnpm é 3x mais rápido e eficiente do que o Npm e mais rápido do que o Yarn. Lidar com inúmeras biblíotecas e módulos foi uma tarefa mais fácil e segura com essa ferramenta.
 
-**Vite** é uma ferramenta com a utilidade de cuidar do bundle da aplicação. Fornece melhores técnicas de performance e otmizações, resultando em um maior desempenho na aplicação tanto em forma de desenvolvimento quanto de produção para o usuário final.
+**Vite** é uma ferramenta com a utilidade de cuidar do bundle da aplicação. Fornece melhores técnicas de performance e otmizações, resultando em um maior desempenho na aplicação tanto em forma de desenvolvimento quanto na de produção.
 
 Ao construir aplicações com um bundler, o pacote JavaScript pode tornar-se bastante grande, e assim afetar o tempo de carregamento da página. É mais eficiente dividir os componentes de cada rota em pedaços separados, e só os carregarmos quando a rota for visitada. Tendo em vista isso, foi usado uma técnica conhecida como *Lazy Load Routes*. **Vue Router** oferece suporte nativo a técnica. [Leia mais.](https://router.vuejs.org/guide/advanced/lazy-loading.html)
 
@@ -94,7 +94,7 @@ Clone o projeto
 Vá ao diretório do projeto
 
 ```bash
-  cd Equilibrio-Natural 
+  cd Equilibrio-Natural-Website
 ```
 
 Instale as depêndencias
