@@ -1,6 +1,6 @@
 
 
-# Equilíbrio Natural Website
+# Equilíbrio Natural - Website
 
 
 [![Languages](https://img.shields.io/github/languages/count/FrogDevs/Equilibrio-Natural)](https://github.com/FrogDevs/Equilibrio-Natural-Website)
@@ -32,17 +32,16 @@ Reconhecimentos
 
 - [unDraw](https://undraw.co)
 - [Desing no Figma](https://www.figma.com/community/file/1183921990401059288)
-- [Unsplash: Primeira imagem](https://unsplash.com/photos/fb7yNPbT0l8)
-- [Unsplash: Segunda imagem](https://unsplash.com/photos/1DMNn6gBbwQ)
 - [Formsubmit](https://formsubmit.co/)
 - [Netlify](https://www.netlify.com/)
- 
+- [Unsplash: Primeira imagem](https://unsplash.com/photos/fb7yNPbT0l8)
+- [Unsplash: Segunda imagem](https://unsplash.com/photos/1DMNn6gBbwQ)
 
 ## Tech Stack
 
-**Client:** Vite, Vue, TailwindCSS e Vue Router
+**Client:** [Vite](vitejs.dev), [Vue](vuejs.org), [TailwindCSS](tailwindcss.com) e [Vue Router](router.vuejs.org)
 
-**Server:** Node e Firebase
+**Server:** Node e [Firebase](https://firebase.google.com)
 
 
 ## Recursos
@@ -51,11 +50,6 @@ Reconhecimentos
 - 📧 Envio de e-mail
 - 🔎 Consulta de lojas físicas
 - 🛍️ Disponibilidade de produtos
-
-<!-- - Light/dark mode toggle
-- Live previews
-- Fullscreen mode
-- Cross platform -->
 
 
 ## Lições aprendidas
@@ -129,8 +123,12 @@ Este projeto é usado pela seguinte companhia
 
 ## Membro responsável
 
-- [@viniciuscosta](https://github.com/Jolonte)
+- [@viniciuscosta](https://vinicius-costa-links.vercel.app)
 
 ## Licença
 
-[MIT](LICENSE)
+[MIT](LICENSE)<br><br>
+
+<p align="right">“Você deve ter paixão por uma ideia ou problema que quer resolver. Se você não tem paixão suficiente desde o começo, não vai aguentar a pressão.”</p>
+<p align="right">Steve Jobs</p>
+
