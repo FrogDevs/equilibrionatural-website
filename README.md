@@ -9,6 +9,8 @@
 [![MIT License](https://img.shields.io/github/license/FrogDevs/Equilibrio-Natural)](https://choosealicense.com/licenses/mit/)
 ![Logos](https://i.imgur.com/E5pg9Hj.png)
 
+[**>>> Read also in English**](en_readme.md)
+
 Site de divulgação para a empresa Equilíbrio Natural. Landing page em formato SPA (Single Page Application) com informações importantes sobre a empresa, como, formas de contato e disponibilidade de produtos em loja.
 
 ## Captura de tela
@@ -56,15 +58,17 @@ Integrar a API Firestore Database no projeto. A maneira encontrada de incluir da
 
 **Que otimizações foram feitas no código?**
 
-O gerenciador de pacótes **Pnpm** foi escolhido para o projeto por oferecer *cold e hot cache*. Pnpm é 3x mais rápido e eficiente do que o Npm e mais rápido do que o Yarn. Lidar com inúmeras biblíotecas e módulos foi uma tarefa mais fácil e segura com essa ferramenta.
+O gerenciador de pacotes **Pnpm** foi escolhido para o projeto por oferecer *cold e hot cache*. Pnpm é 3x mais rápido e eficiente do que o Npm e mais rápido do que o Yarn. Lidar com inúmeras bibliotecas e módulos foi uma tarefa mais fácil e segura com essa ferramenta.
 
-**Vite** é uma ferramenta com a utilidade de cuidar do bundle da aplicação. Fornece melhores técnicas de otmizações, resultando em uma maior performance na aplicação tanto em forma de desenvolvimento quanto de produção para o usuário final.
+**Vite** é uma ferramenta com a utilidade de cuidar do bundle da aplicação. Fornece melhores técnicas de otimização, resultando em uma maior performance na aplicação tanto em forma de desenvolvimento quanto de produção para o usuário final.
 
 Ao construir aplicações com um bundler, o pacote JavaScript pode tornar-se bastante grande, e assim afetar o tempo de carregamento da página. É mais eficiente dividir os componentes de cada rota em pedaços separados, e só os carregarmos quando a rota for visitada. Tendo em vista isso, foi usado uma técnica conhecida como *Lazy Load Routes*. **Vue Router** oferece suporte nativo a técnica. [Leia mais.](https://router.vuejs.org/guide/advanced/lazy-loading.html)
 
-O site foi construido usando o conceito de *Mobile First*. Esse conceito se refere a criação qualquer projeto que prioriza a experiência em dispositivos móveis, enquanto são feitas adaptações para resoluções maiores. Isso permite que o site seja completamente responsivo e adaptável a outras resoluções de telas, permitindo uma maior inclusão de clientes.
+O site foi construido usando o conceito de *Mobile First*. Esse conceito se refere a criação de qualquer projeto que prioriza a experiência em dispositivos móveis, enquanto são feitas adaptações para resoluções maiores. Isso permite que o site seja completamente responsivo e adaptável a outras resoluções de telas, permitindo uma maior inclusão de clientes.
 
 ## Demo
+
+Utilizamos a Netlify para a implementação online do site
 
 - [Deploy](https://equilibrionatural.netlify.app)
 - [Deploy para o TCC (banco de dados alternativo)](https://equilibrionaturaltcc.netlify.app)
