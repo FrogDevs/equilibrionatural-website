@@ -115,7 +115,7 @@ Veja outro projeto relacionado
 
 ## Membro responsável
 
-- [@viniciuscosta](https://vinicius-costa-links.vercel.app)
+- **Web Design e Front-end:** [@viniciuscosta](https://vinicius-costa-links.vercel.app)
 
 ## Licença
 
