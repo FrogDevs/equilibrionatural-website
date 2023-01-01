@@ -113,7 +113,7 @@ See other related project
 
 ## Responsible Member
 
-- [@viniciuscosta](https://vinicius-costa-links.vercel.app)
+- **Web Design and Front-end:** [@viniciuscosta](https://vinicius-costa-links.vercel.app)
 
 ## License
 
