@@ -15,7 +15,7 @@ Website for the company Equilíbrio Natural (Natural Balance). Landing page in S
 
 ![App Screenshot](https://i.imgur.com/e1wDuUZ.png)
 
-## Apêndice
+## Appendix
 
 Project made by the [FrogDev's](https://github.com/FrogDevs) team for the Course Conclusion Work of Etec Jardim Ângela.
 
@@ -46,7 +46,7 @@ Assignments:
 
 **Server:** Node and [Firebase](https://firebase.google.com)
 
-## Lições aprendidas
+## Lessons Learned
 
 **What challenges were faced and how were they overcome?**
 
@@ -117,7 +117,7 @@ See other related project
 
 ## License
 
-[MIT](LICENSE)<br><br>
+- [MIT](LICENSE)<br><br>
 
-<p align="right">“You must have passion for an idea or problem you want to solve. If you don't have enough passion from the beginning, you won't handle the pressure.”</p>
+<p align="right">“You have to be burning with an idea, or a problem, or a wrong that you want to right. If you’re not passionate enough from the start, you’ll never stick it out.”</p>
 <p align="right">Steve Jobs</p>
