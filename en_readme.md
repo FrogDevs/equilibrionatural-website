@@ -17,7 +17,7 @@ Website for the company Equilíbrio Natural (Natural Balance). Landing page in S
 
 ## Apêndice
 
-Projeto feito pela equipe [FrogDev's](https://github.com/FrogDevs) para o Trabalho de Conclusão de Curso da Etec Jardim Ângela.
+Project made by the [FrogDev's](https://github.com/FrogDevs) team for the Course Conclusion Work of Etec Jardim Ângela.
 
 ## Thanks to
 
