@@ -42,7 +42,7 @@ We leave this dedication to the company Equilíbrio Natural (Natural Balance), w
 - [Unsplash: Primeira imagem](https://unsplash.com/photos/fb7yNPbT0l8)
 - [Unsplash: Segunda imagem](https://unsplash.com/photos/1DMNn6gBbwQ)
 
-## Recursos
+## Features
 
 - ✨ Interactive Cards
 - 📧 Emailing
