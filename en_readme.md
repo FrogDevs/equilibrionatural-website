@@ -1,4 +1,3 @@
-
 # Equilíbrio Natural - Website
 
 [![Languages](https://img.shields.io/github/languages/count/FrogDevs/Equilibrio-Natural)](https://github.com/FrogDevs/Equilibrio-Natural-Website)
@@ -17,13 +16,24 @@ Website for the company Equilíbrio Natural (Natural Balance). Landing page in S
 
 ## Appendix
 
-Project made by the [Frogdevs](https://github.com/FrogDevs) team for the Course Conclusion Work of Etec Jardim Ângela.
+* [Thanks to](#thanks-to)
+* [Assignments](#assignments)
+* [Features](#features)
+* [Tech Stack](#tech-stack)
+* [Lessons Learned](#lessons-learned)
+* [Optimizations](#optimizations)
+* [Demo](#demo)
+* [Run locally](#run-locally)
+* [Used by](#used-by)
+* [Related](#related)
+* [Responsible Member](#responsible-member)
+* [License](#license)
 
 ## Thanks to
 
 We leave this dedication to the company Equilíbrio Natural (Natural Balance), which trusted in our skills for dissemination, management and automation of its enterprise. And to ETEC Jardim Ângela for providing us the search for the necessary knowledge in the realization of this work.
 
-Assignments:
+## Assignments:
 
 - [unDraw](https://undraw.co)
 - [Desing no Figma](https://www.figma.com/community/file/1183921990401059288)
@@ -42,9 +52,9 @@ Assignments:
 
 ## Tech Stack
 
-**Client:** [Vite](vitejs.dev), [Vue](vuejs.org), [TailwindCSS](tailwindcss.com) and [Vue Router](router.vuejs.org)
+**Client:** [Vite](vitejs.dev), [Vue](vuejs.org) and [TailwindCSS](tailwindcss.com)
 
-**Server:** Node and [Firebase](https://firebase.google.com)
+**Server:** [Vue Router](router.vuejs.org) and [Firebase](https://firebase.google.com)
 
 ## Lessons Learned
 
