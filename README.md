@@ -1,4 +1,3 @@
-
 # Equilíbrio Natural - Website
 
 [![Languages](https://img.shields.io/github/languages/count/FrogDevs/Equilibrio-Natural)](https://github.com/FrogDevs/Equilibrio-Natural-Website)
@@ -19,13 +18,24 @@ Site de divulgação para a empresa Equilíbrio Natural. Landing page em formato
 
 ## Apêndice
 
-Projeto feito pela equipe [Frogdevs](https://github.com/FrogDevs) para o Trabalho de Conclusão de Curso da Etec Jardim Ângela.
+* [Agradecimentos](#agradecimentos)
+* [Atribuições](#atribuições)
+* [Recursos](#recursos)
+* [Tech Stack](#tech-stack)
+* [Lições Aprendidas](#lições-aprendidas)
+* [Otimizações](#otimizações)
+* [Demo](#demo)
+* [Rodar localmente](#rodar-localmente)
+* [Usado por](#usado-por)
+* [Relacionados](#relacionados)
+* [Membro responsável](#membro-responsável)
+* [Licença](#licença)
 
 ## Agradecimentos
 
 Deixamos essa dedicatória a empresa Equilíbrio Natural a qual confiou em nossas habilidades para divulgação, gestão e automação de seu empreendimento. E a ETEC Jardim Ângela por nos proporcionar a busca pelo conhecimento necessário na realização desse trabalho.
 
-Atribuições:
+## Atribuições:
 
 - [unDraw](https://undraw.co)
 - [Desing no Figma](https://www.figma.com/community/file/1183921990401059288)
@@ -44,9 +54,9 @@ Atribuições:
 
 ## Tech Stack
 
-**Client:** [Vite](vitejs.dev), [Vue](vuejs.org), [TailwindCSS](tailwindcss.com) e [Vue Router](router.vuejs.org)
+**Front-end:** [Vite](vitejs.dev), [Vue](vuejs.org) e [TailwindCSS](tailwindcss.com)
 
-**Server:** Node e [Firebase](https://firebase.google.com)
+**Back-end:** [Vue Router](router.vuejs.org) e [Firebase](https://firebase.google.com)
 
 ## Lições aprendidas
 
