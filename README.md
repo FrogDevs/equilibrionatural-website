@@ -19,7 +19,7 @@ Site de divulgação para a empresa Equilíbrio Natural. Landing page em formato
 
 ## Apêndice
 
-Projeto feito pela equipe [FrogDev's](https://github.com/FrogDevs) para o Trabalho de Conclusão de Curso da Etec Jardim Ângela.
+Projeto feito pela equipe [Frogdevs](https://github.com/FrogDevs) para o Trabalho de Conclusão de Curso da Etec Jardim Ângela.
 
 ## Agradecimentos
 
